@@ -18,8 +18,8 @@ To install `hs-arima`, you can add it to your project's dependencies in the `cab
 ```haskell
 -- In cabal file
 build-depends: 
-    hs-arima == 0.1.0
+    harima == 0.1.0
 
 -- In stack file
 extra-deps: 
-    - hs-arima-0.1.0
+    - harima-0.1.0
