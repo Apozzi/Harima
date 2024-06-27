@@ -1,6 +1,6 @@
 # hs-arima
 
-`hs-arima` is a Haskell library designed for time series analysis and forecasting using the ARIMA (AutoRegressive Integrated Moving Average) model. This library provides a comprehensive and efficient implementation of ARIMA, allowing users to model and predict time series data with ease.
+`hs-arima` is a Haskell library designed for time series analysis and forecasting using the ARIMA (AutoRegressive Integrated Moving Average) model for Haskell.
 
 ## Features
 
