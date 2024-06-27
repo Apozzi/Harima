@@ -20,5 +20,5 @@ test-suite hs-arima-test
   type:                exitcode-stdio-1.0
   hs-source-dirs:      test
   main-is:             ARIMATest.hs
-  build-depends:       base >=4.7 && <5, hs-arima, HUnit
+  build-depends:       base >=4.7 && <5, hs-arima, HUnit, vector
   default-language:    Haskell2010

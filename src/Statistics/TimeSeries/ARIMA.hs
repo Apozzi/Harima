@@ -1,11 +1,11 @@
 module Statistics.TimeSeries.ARIMA (
-    ARIMA,
+    ARIMA(..), 
     fitARIMA,
     forecast
 ) where
 
 import Data.TimeSeries (TimeSeries)
-import Data.Vector (Vector, (!), length, slice)
+import Data.Vector (Vector)
 import qualified Data.Vector as V
 
 data ARIMA = ARIMA {

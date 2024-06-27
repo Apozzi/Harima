@@ -4,12 +4,12 @@ module Data.TimeSeries (
     toList
 ) where
 
-import Data.Vector (Vector, fromList, toList)
+import qualified Data.Vector as V
 
-type TimeSeries = Vector (Int, Double)
+type TimeSeries = V.Vector (Int, Double)
 
 fromList :: [(Int, Double)] -> TimeSeries
-fromList = Data.Vector.fromList
+fromList = V.fromList
 
 toList :: TimeSeries -> [(Int, Double)]
-toList = Data.Vector.toList
+toList = V.toList
