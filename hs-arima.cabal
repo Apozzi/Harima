@@ -4,8 +4,8 @@ synopsis:            Time series analysis and forecasting using ARIMA models
 description:         A Haskell library for time series analysis and forecasting with ARIMA models.
 license:             MIT
 license-file:        LICENSE
-author:              Your Name
-maintainer:          your.email@example.com
+author:              Anderson Pozzi
+maintainer:          eanderea1@gmail.com
 category:            Data, Machine Learning
 build-type:          Simple
 cabal-version:       >=1.10
