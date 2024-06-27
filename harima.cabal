@@ -1,4 +1,4 @@
-name:                hs-arima
+name:                harima
 version:             0.1.0.0
 synopsis:            Time series analysis and forecasting using ARIMA models
 description:         A Haskell library for time series analysis and forecasting with ARIMA models.
@@ -16,9 +16,9 @@ library
   hs-source-dirs:      src
   default-language:    Haskell2010
 
-test-suite hs-arima-test
+test-suite harima-test
   type:                exitcode-stdio-1.0
   hs-source-dirs:      test
   main-is:             ARIMATest.hs
-  build-depends:       base >=4.7 && <5, hs-arima, HUnit, vector
+  build-depends:       base >=4.7 && <5, harima, HUnit, vector
   default-language:    Haskell2010
