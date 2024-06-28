@@ -13,7 +13,7 @@
 
 ## Installation
 
-To install `hs-arima`, you can add it to your project's dependencies in the `cabal` or `stack` configuration file:
+To install `harima`, you can add it to your project's dependencies in the `cabal` or `stack` configuration file:
 
 ```haskell
 -- In cabal file
